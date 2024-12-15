@@ -32,14 +32,14 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Touch.Cnds.OnHoldGestureObject,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
-		C3.Plugins.Audio.Acts.PreloadByName,
 		C3.Plugins.Sprite.Cnds.CompareX,
 		C3.Plugins.Sprite.Acts.SetX,
 		C3.Plugins.Sprite.Exps.X,
 		C3.Plugins.Sprite.Acts.SetPos,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Acts.AddVar,
-		C3.Behaviors.Bullet.Acts.SetAngleOfMotion
+		C3.Behaviors.Bullet.Acts.SetAngleOfMotion,
+		C3.Plugins.Sprite.Acts.StartAnim
 	];
 };
 self.C3_JsPropNameTable = [
@@ -253,6 +253,7 @@ self.C3_JsPropNameTable = [
 	{txtHenri4: 0},
 	{balaoRaissa3: 0},
 	{Sprite59: 0},
+	{Sprite60: 0},
 	{escolhaAula: 0},
 	{tempoEncerrar: 0}
 ];
@@ -464,5 +465,6 @@ self.InstanceType = {
 	txtHenri3: class extends self.ITextInstance {},
 	txtHenri4: class extends self.ITextInstance {},
 	balaoRaissa3: class extends self.ISpriteInstance {},
-	Sprite59: class extends self.ISpriteInstance {}
+	Sprite59: class extends self.ISpriteInstance {},
+	Sprite60: class extends self.ISpriteInstance {}
 }
