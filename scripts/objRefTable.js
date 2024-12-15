@@ -32,6 +32,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Touch.Cnds.OnHoldGestureObject,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
+		C3.Plugins.Audio.Acts.PreloadByName,
 		C3.Plugins.Sprite.Cnds.CompareX,
 		C3.Plugins.Sprite.Acts.SetX,
 		C3.Plugins.Sprite.Exps.X,
