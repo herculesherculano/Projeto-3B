@@ -1,7 +1,7 @@
 {
-	"name": "Novo projeto",
-	"short_name": "Novo projeto",
-	"description": "",
+	"name": "Projeto 3B",
+	"short_name": "Projeto 3B",
+	"description": "Projeto em homenagem aos alunos da turma do 3B do curso de Programação de Jogos Digitais da escola ECIT Oswaldo Trigueiro de Albuquerque Mello",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
